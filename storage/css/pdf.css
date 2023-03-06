@@ -1,0 +1,58 @@
+body {font-family:"Times New Roman"; font-size:13px;}
+b {font-weight:600;}
+.page-break {page-break-after:always;}
+
+.header {padding:10px; margin-bottom:36px; border-bottom:#121212 solid 1px;}
+.header .logo {vertical-align:top;}
+.header .logo img {display:block; width:200px;}
+.header .details {padding-left:90px;}
+.header .details p {margin:0;}
+.header .company {}
+.header .company .role {font-weight:600;}
+.header .company .name {font-weight:600;}
+.header .company .address {}
+
+.content {}
+
+.content .mb-10 {margin-bottom:10px;}
+.content .mb-20 {margin-bottom:20px;}
+.content .mb-30 {margin-bottom:30px;}
+.content .mb-40 {margin-bottom:40px;}
+
+.content .mt-10 {margin-top:10px;}
+.content .mt-20 {margin-top:20px;}
+.content .mt-30 {margin-top:30px;}
+.content .mt-40 {margin-top:40px;}
+
+
+.content .w-100 {width:100%;}
+
+.content .lowercase {text-transform:lowercase;}
+
+.content .text-right {text-align:right;}
+.content .text-center {text-align:center;}
+
+.content .title {margin-bottom:30px; font-weight:600; text-align:center;}
+.content p {margin:0; text-indent:40px;}
+.content ol {padding:0; margin:0;}
+.content ol li {padding:0; margin:0; list-style-position:inside; text-indent:50px; vertical-align:top;}
+
+.content .subheader {margin-bottom:40px;}
+.content .subheader table {width:100%;}
+.content .subheader .destination {width:50%; text-align:center;}
+
+.content table.suggestions {border-collapse:collapse;}
+.content table.suggestions td {width:25%; padding:10px; border:1px solid #707070; vertical-align:top;}
+.content table.suggestions .head td {vertical-align:middle;}
+
+
+.footer {margin-top:30px;}
+.footer .sign {width:100%;}
+.footer .sign .position {padding-top:20px; vertical-align:top;}
+.footer .sign .person {padding-top:20px; vertical-align:top;}
+.footer .sign .middle {padding:0 30px;}
+.footer .sign .middle .stamp {display:inline-block; width:250px; margin:0 auto; font-family:"PT Sans"; padding:10px; border:#dedede solid 2px; border-radius:16px; font-size:10px; line-height:1; overflow:hidden;}
+.footer .sign .middle .stamp .title {padding:0 0 10px; text-transform:uppercase;}
+.footer .sign .middle .stamp .title img {float:left; width:24px; margin:0 10px;}
+.footer .sign .middle .stamp .body {}
+.footer .sign .middle .stamp .body p {margin:0;}

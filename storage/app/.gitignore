@@ -1,0 +1,7 @@
+*
+!public/
+!import
+!import/*
+!dadata
+!dadata/*
+!.gitignore

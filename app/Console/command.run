@@ -1,0 +1,4 @@
+# запуск проверки на выполнения существования задания
+/usr/local/Cellar/php@7.4/7.4.30_1/bin/php artisan movie:send:in:group
+# запуск очереди выполнения заданий
+/usr/local/Cellar/php@7.4/7.4.30_1/bin/php artisan queue:work
