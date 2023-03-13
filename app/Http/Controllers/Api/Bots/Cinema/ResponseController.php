@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Telegram\Bot\Api;
+use ErrorException;
 
 class ResponseController extends Controller {
     public function post(Request $request) {
@@ -18,7 +19,7 @@ class ResponseController extends Controller {
                 'data' => $callback_query['data'],
             ];
             Storage::put('botCinemaResponsePost.txt', print_r($data,1));
-        } catch (\ErrorException $exception) {
+        } catch (ErrorException $exception) {
             Storage::put('exception.txt', print_r($exception->getTraceAsString(),1));
         }
     }

@@ -10,7 +10,8 @@ class ChatAnswer extends Model
     use HasFactory;
 
     protected $fillable = [
-        '',
+        'chat_id',
+        'type',
     ];
 
     protected $hidden = [

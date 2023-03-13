@@ -50,6 +50,8 @@ Route::group(['middleware' => ['auth:api']], function() {
         Route::group(['prefix' => 'cinema', 'namespace' => 'Cinema'], function() {
             // /api/bots/cinema/response
             Route::post('/response', 'ResponseController@post');
+            // /api/bots/cinema/request
+            Route::post('/request', 'RequestController@post');
         });
     });
 
