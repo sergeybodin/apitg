@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Api\Charts;
+namespace App\Http\Controllers\Api\Chats;
 
 use App\Http\Controllers\Controller;
-use App\Models\Chats\Chat;
+use App\Models\Chats\ChatAnswer;
 use Illuminate\Http\Request;
 
-class ChatController extends Controller
+class ChatAnswerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class ChatController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Chats\Chat  $chat
+     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
      * @return \Illuminate\Http\Response
      */
-    public function show(Chat $chat)
+    public function show(ChatAnswer $chatAnswer)
     {
         //
     }
@@ -53,10 +53,10 @@ class ChatController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Chats\Chat  $chat
+     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
      * @return \Illuminate\Http\Response
      */
-    public function edit(Chat $chat)
+    public function edit(ChatAnswer $chatAnswer)
     {
         //
     }
@@ -65,10 +65,10 @@ class ChatController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Chats\Chat  $chat
+     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Chat $chat)
+    public function update(Request $request, ChatAnswer $chatAnswer)
     {
         //
     }
@@ -76,11 +76,12 @@ class ChatController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Chats\Chat  $chat
+     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Chat $chat)
+    public function destroy(ChatAnswer $chatAnswer)
     {
         //
     }
 }
+

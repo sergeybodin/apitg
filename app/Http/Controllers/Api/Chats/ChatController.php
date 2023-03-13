@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Api\Charts;
+namespace App\Http\Controllers\Api\Chats;
 
 use App\Http\Controllers\Controller;
-use App\Models\Chats\ChatAnswer;
+use App\Models\Chats\Chat;
 use Illuminate\Http\Request;
 
-class ChatAnswerController extends Controller
+class ChatController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class ChatAnswerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
+     * @param  \App\Models\Chats\Chat  $chat
      * @return \Illuminate\Http\Response
      */
-    public function show(ChatAnswer $chatAnswer)
+    public function show(Chat $chat)
     {
         //
     }
@@ -53,10 +53,10 @@ class ChatAnswerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
+     * @param  \App\Models\Chats\Chat  $chat
      * @return \Illuminate\Http\Response
      */
-    public function edit(ChatAnswer $chatAnswer)
+    public function edit(Chat $chat)
     {
         //
     }
@@ -65,10 +65,10 @@ class ChatAnswerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
+     * @param  \App\Models\Chats\Chat  $chat
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ChatAnswer $chatAnswer)
+    public function update(Request $request, Chat $chat)
     {
         //
     }
@@ -76,12 +76,11 @@ class ChatAnswerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Chats\ChatAnswer  $chatAnswer
+     * @param  \App\Models\Chats\Chat  $chat
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ChatAnswer $chatAnswer)
+    public function destroy(Chat $chat)
     {
         //
     }
 }
-
